@@ -4,4 +4,8 @@ you need the oh-my-zsh plugin manager and the following zsh plugins:
 - zsh-autosuggestions
 - powerlevel10k theme
 
-remove everything in your .zshrc and source the zshConfig.sh file 
+remove everything in your .zshrc and source the zshConfig.sh file
+
+
+# if you want some colorschemes suggestions you have in colorschemes 
+- [colorschemes.md](colorshemes.md)
