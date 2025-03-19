@@ -1,2 +1,2 @@
 # list of my favourite terminal colorschemes :]
-- - [catppuccin-mocha](catppuccin-mocha)
+[catppuccin-mocha](https://github.com/catppuccin/xfce4-terminal)
