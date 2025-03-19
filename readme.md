@@ -7,5 +7,4 @@ you need the oh-my-zsh plugin manager and the following zsh plugins:
 remove everything in your .zshrc and source the zshConfig.sh file
 
 
-# if you want some colorschemes suggestions you have in colorschemes 
-- [colorschemes.md](colorshemes.md)
+# if you want some colorschemes suggestions - [colorschemes.md](colorshemes.md)
