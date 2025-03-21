@@ -12,7 +12,7 @@ by using the following command in your terminal.
 ```bash
 source kickstart.sh
 ```
-just make sure you are in the directory of this repo
+just make sure you are in the directory of this repo<br/>
 and don't worry i didn't remove your .zshrc i just renamed it :]
 
 ## colorshemes
