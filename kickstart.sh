@@ -14,6 +14,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-
 sudo apt install ruby ruby-rubygems ruby-dev  
 
 sudo gem install colorls
+
 TIME_OF_SCRIPT=$(date +"%Y-%m-%d_%H-%M-%S")
 
 cd $HOME
