@@ -6,5 +6,13 @@ you need the oh-my-zsh plugin manager and the following zsh plugins:
 
 remove everything in your .zshrc and source the zshConfig.sh file
 
+## Quick start
+if you want to kickstart this beautiful config you can use the file [kickstart.sh](kickstart.sh)
+by using the following command in your terminal.
+```bash
+source kickstart.sh
+```
+just make sure you are in the directory of this repo
 
-### if you want some colorschemes suggestions [colorschemes.md](colorschemes.md)
+## colorshemes
+if you want some colorschemes suggestions [colorschemes.md](colorschemes.md)
