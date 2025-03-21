@@ -21,4 +21,4 @@ mv $HOME/.zshrc $HOME/.zshrc.pre_config${TIME_OF_SCRIPT}
 touch .zshrc
 
 echo "source \"${ABSOSLUTE_PATH_TO_CONFIG}zshConfig.sh\"" > $HOME/.zshrc
-
+ 
