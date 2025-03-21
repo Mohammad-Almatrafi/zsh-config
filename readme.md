@@ -13,6 +13,7 @@ by using the following command in your terminal.
 source kickstart.sh
 ```
 just make sure you are in the directory of this repo
+and don't worry i didn't remove your .zshrc i just renamed it :]
 
 ## colorshemes
 if you want some colorschemes suggestions [colorschemes.md](colorschemes.md)
