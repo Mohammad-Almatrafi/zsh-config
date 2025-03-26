@@ -8,13 +8,19 @@ plugins=(
     git 
     zsh-syntax-highlighting 
     zsh-autosuggestions
+    web-search
+    zsh-history-substring-search
+    you-should-use
 )
 
 source $ZSH/oh-my-zsh.sh
 
 source ${COSTUM_CONFIG_PATH}aliasses.sh
+source ${COSTUM_CONFIG_PATH}keybinds.sh
 
 source ${COSTUM_CONFIG_PATH}wallpapers.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 export PATH="$PATH:/opt/riscv/bin"
+
+neofetch

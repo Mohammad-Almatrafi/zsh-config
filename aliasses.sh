@@ -8,5 +8,5 @@ rm -rf ~/vivado_log
 alias ls="colorls"
 
 alias refresh="
-source $HOME/.zshrc
+exec zsh
 "
