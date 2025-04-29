@@ -1,6 +1,16 @@
-export ZSH="$HOME/.oh-my-zsh"
+COSTUM_CONFIG_PATH="${funcsourcetrace[1]%/*}"
 
-COSTUM_CONFIG_PATH="${funcsourcetrace[1]%/*}/"
+safe_source() {
+  local file="$1"
+  
+  if [[ ! -f "$file" ]]; then
+    return
+  fi
+
+    source "$file"
+}
+
+export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
@@ -15,12 +25,13 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-source ${COSTUM_CONFIG_PATH}aliasses.sh
-source ${COSTUM_CONFIG_PATH}keybinds.sh
+safe_source ${COSTUM_CONFIG_PATH}/aliasses.sh
+safe_source ${COSTUM_CONFIG_PATH}/keybinds.sh
 
-source ${COSTUM_CONFIG_PATH}wallpapers.sh
+safe_source ${COSTUM_CONFIG_PATH}/wallpapers.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 export PATH="$PATH:/opt/riscv/bin"
+export PATH="$HOME/.tmux/plugins/tmuxifier/bin:$PATH"
 
-neofetch
+eval "$(tmuxifier init -)"

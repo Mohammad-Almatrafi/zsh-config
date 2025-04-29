@@ -5,8 +5,6 @@ cd ..
 rm -rf ~/vivado_log
 "
 
-alias ls="colorls"
-
 alias refresh="
 exec zsh
 "
